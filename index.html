@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<!-- bootstrap -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<!-- CSS Link -->
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+	
+
+	<title>Star Wars Game</title>
+</head>
+<body>
+
+	<h1>Star Wars: RPG</h1>
+	
+<div class="container">
+		<h2>Select Your Character</h2>
+
+	<div id="characterSelect" class="row">
+		<div id="Rey" class="col-md-3">Rey<br><img class="imgSize" src="assets/images/rey.jpg"><br>120HP</div>
+		<div id="Finn" class="col-md-3">Finn<br><img class="imgSize" src="assets/images/finn.jpg"><br>100HP</div>
+		<div id="Kylo" class="col-md-3">Kylo Ren<br><img class="imgSize" src="assets/images/kylo.jpg"><br>180HP</div>
+		<div id="Phasma" class="col-md-3">Captain Phasma<br><img class="imgSize" src="assets/images/phasma.jpg"><br>150HP</div>
+
+	</div>
+
+	<div id="selectedCharacter" class="row">
+		<h2>Your Character</h2>
+		<div id="Hero"></div><br>
+	</div>
+
+	<div class="row">
+		<h2>Enemies Available to Attack</h2>
+		<div id="villian1"></div>
+		<div id="villian2"></div>
+		<div id="villian3"></div>
+		<div id="villian4"></div>
+	</div>
+	
+	<div class="row">
+		<h2>Fight Section</h2>
+		<button id="attackBtn">Attach!</button>
+	</div><br><br>
+
+	<div class="row">
+		<h2>Defender</h2>
+		<div id="defender"></div>	
+	</div>
+
+		<button>Restart</button>
+
+</div>
+
+	<script type="text/javascript" src="assets/javascript/javascript.js"></script>
+</body>
+</html>
